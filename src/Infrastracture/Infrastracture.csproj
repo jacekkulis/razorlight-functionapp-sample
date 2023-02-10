@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<RootNamespace>NotificationProcessor.Infrastructure</RootNamespace>
+	<AssemblyName>NotificationProcessor.Infrastructure</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.7.1" />
+    <PackageReference Include="CommonsLibrary" Version="4.1.14.935" />
+    <PackageReference Include="ESAB.Identity.Client" Version="1.0.0.1119" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.13" />
+    <PackageReference Include="Postmark" Version="4.7.7" />
+    <PackageReference Include="RazorLight" Version="2.3.1" />
+    <PackageReference Include="Twilio" Version="6.2.2" />
+	<PackageReference Include="Azure.Storage.Common" Version="12.13.0" />
+	<PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

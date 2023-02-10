@@ -1,0 +1,23 @@
+﻿@model RazorLight.Samples.Models.WelcomeTemplate
+@{
+    Layout = "Partials._Layout";
+}
+<h1>Welcome, @Model.Name!</h1>
+<p>Thanks for trying our product. We’re thrilled to have you on board.</p>
+<p>For reference, here's your login information:</p>
+<table class="attributes" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="attributes_content">
+            <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="attributes_item"><strong>Login Page:</strong> @Model.LoginUrl</td>
+                </tr>
+                <tr>
+                    <td class="attributes_item"><strong>Username:</strong> @Model.Username</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<p>If you have any questions, feel free to <a href="mailto:@Model.SupportEmail">email our customer success team</a>. (We're lightning quick at replying.) We also offer <a href="@Model.LiveChatUrl">live chat</a> during business hours.</p>
